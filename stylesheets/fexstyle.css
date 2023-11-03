@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #161a21 0%, #05080b 100%);
+}
+
+#header {
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(to bottom, #101821 0%,#17212e 35%,#0b1216 100%);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 32px;
+    font-size: large;
+    color: white;
+    align-items: center;
+    border-bottom: 2px solid #111921;
+}
+
+#header p {
+    padding-left: 8px;
+}
+
+#header #header-logo {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+#renderer-wrapper {
+    background: rgba(0, 0, 0, 0,);
+    padding: 24px 0 24px 0;
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+#renderer {
+    display: inline-block;
+    width: 85%; 
+    height: 85%; 
+    background-color: black;
+    border: 1px solid rgb(61, 73, 107);
+}

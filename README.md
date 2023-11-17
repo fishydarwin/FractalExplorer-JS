@@ -23,5 +23,5 @@ let bound = 2;
 let maxIterations = 500;
 ```
 
-You may change this into anything you'd like by opening `assets/fexl-function.js`.  
-The available helper functions can be found in `assets/fexl_helper.js`.
+You may change this into anything you'd like by opening `scripts/fexl-function.js`.  
+The available helper functions can be found in `scripts/fexl_helper.js`.
